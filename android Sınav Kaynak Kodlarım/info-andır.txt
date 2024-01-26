@@ -1,0 +1,25 @@
+1 - Bu MainActivity.java dosyası, bir kullanıcının kayıt olabileceği bir giriş ekranını temsil eder. Kullanıcı adı, şifre ve cinsiyet bilgilerini içeren form elemanları bulunmaktadır. Kullanıcı, bu bilgileri doldurduktan sonra "Kayıt" butonuna tıkladığında, bu bilgileri diğer bir MainActivity2.java sınıfına aktararak bir sonraki ekrana geçiş yapar. Bu eylem, kullanıcının giriş yaptığı bilgileri içeren bir başka aktiviteye yönlendirme işlevini gerçekleştirir.
+
+2 - SecondActivity.java dosyası, kullanıcının giriş yapabileceği bir ekranı temsil eder. Kullanıcı adı ve şifre alanları, giriş yapmak için bir "Giriş" butonu ile birlikte bulunur. Kullanıcı giriş bilgilerini doldurup "Giriş" butonuna tıkladığında, bilgileri kontrol eder. Eğer kullanıcı adı "kullanici" ve şifre "sifre" ise, bir sonraki ekrana (SecondActivity2.java) geçiş yapar. Aksi takdirde, kullanıcıya girişin başarısız olduğunu bildiren bir Toast mesajı görüntülenir.
+
+3 - ThirdActivity.java dosyası, bir şehir seçme işlemine dayalı olarak isim ve soyisim bilgilerini içeren bir Spinner ve bu bilgileri gösteren bir TextView içerir. Kullanıcı şehir seçtiğinde, seçilen şehre ait isim ve soyisim bilgileri getBilgiler metodundan alınarak TextView üzerinde görüntülenir. Bu uygulama, kullanıcıların bir şehir seçip o şehre ait isim ve soyisim bilgilerini görmelerini sağlar.
+
+4 - FourthActivity.java dosyası, bir araç türü seçme işlemine dayalı olarak araç türüne ait özellikleri içeren bir Spinner ve bu özellikleri gösteren bir TextView içerir. Kullanıcı araç türü seçtiğinde, seçilen araç türüne ait özellikler getAracOzellikleri metodundan alınarak TextView üzerinde görüntülenir. Bu uygulama, kullanıcıların bir araç türü seçip o türe ait özellikleri görmelerini sağlar.
+
+5 - FifthActivity.java dosyası, öğrencinin adını, soyadını, sınıfını, ders adlarını ve bu derslere ait notları girerek not ortalamasını hesaplayan bir uygulamayı temsil eder. Kullanıcı, önce ad, soyad ve sınıf bilgilerini girdikten sonra, her bir ders için ders adını ve notunu girebilir. Ardından "Hesapla" butonuna tıkladığında, girilen notlar üzerinden genel not ortalaması hesaplanır ve öğrencinin geçip geçmediği kontrol edilir. Sonuç, bir TextView üzerinde görüntülenir. Bu uygulama, öğrencinin not bilgilerini girdikten sonra genel başarı durumunu gösteren bir öğrenci not hesaplama uygulamasıdır.
+
+6 - SixthActivity.java dosyası, kullanıcının adını, soyadını ve yaşını girdiği bir ekranı temsil eder. "Devam" butonuna tıklanması durumunda, bu bilgileri bir sonraki ekrana (SixthActivity2.java) iletmek için bir Intent kullanılır. Bu aktivite, kullanıcının temel kişisel bilgilerini girmesini sağlayan ve bu bilgileri bir sonraki ekrana aktaran bir sayfayı temsil eder.
+
+7 - SeventhActivity.java dosyası, kullanıcının bir etkinlik adı, katılımcı sayısı ve etkinlik türü girdiği bir ekranı temsil eder. "Devam" butonuna tıklanması durumunda, bu bilgileri bir sonraki ekrana (SeventhActivity2.java) iletmek için bir Intent kullanılır. Bu aktivite, kullanıcının bir etkinlikle ilgili temel bilgileri girmesini sağlayan ve bu bilgileri bir sonraki ekrana aktaran bir sayfayı temsil eder.
+
+8 - EightActivity.java dosyası, kullanıcının ürün adı, fiyatı ve kategori seçimi gibi bilgileri girdiği bir ekranı temsil eder. "Ürün Ekle" butonuna tıklanması durumunda, bu bilgileri bir liste içerisine ekleyerek bir ListView üzerinde görüntüler. Kullanıcı her bir ürünü ekledikçe liste güncellenir. Bu aktivite, kullanıcının ürünlerle ilgili temel bilgileri girmesini ve bu bilgileri bir liste üzerinde görmesini sağlayan bir sayfayı temsil eder.
+
+9 - NinthActivity.java dosyası, kullanıcının iki sayı girmesi için bir ekranı temsil eder. "Devam" butonuna tıklanması durumunda, bu iki sayıyı bir sonraki ekrana (NinthActivity2.java) iletmek için bir Intent kullanılır. Bu aktivite, kullanıcının matematiksel işlemler yapmak üzere iki sayı girmesini ve bu sayıları bir sonraki ekrana aktarmasını sağlayan bir sayfayı temsil eder.
+
+10 - TenthActivity.java dosyası, kullanıcının bir ülke seçmesi durumunda seçilen ülkenin bayrağını, başkentini ve nüfusunu gösteren bir ekranı temsil eder. Bu aktivite, bir Spinner (dropdown) kullanarak ülkeleri listeleyip, seçildiğinde seçilen ülkenin bilgilerini ekranda gösterir.
+
+
+
+
+
+

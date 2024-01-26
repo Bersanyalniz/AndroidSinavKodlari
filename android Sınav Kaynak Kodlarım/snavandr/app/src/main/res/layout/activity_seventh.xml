@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/etEtkinlikAdi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Etkinlik Adı"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/etKatilimciSayisi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Katılımcı Sayısı"
+        android:layout_below="@id/etEtkinlikAdi"
+        android:layout_marginTop="8dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerEtkinlikTuru"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etKatilimciSayisi"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnDevam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Devam"
+        android:layout_below="@id/spinnerEtkinlikTuru"
+        android:layout_marginTop="16dp"/>
+
+</RelativeLayout>
